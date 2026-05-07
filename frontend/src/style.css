@@ -35,6 +35,74 @@ body {
 #filtro {
   width: 300px;
   margin-left: 10px;
+<<<<<<< HEAD
+}
+
+#vista:focus,
+#filtro:focus {
+  border-color: var(--utpl-azul);
+  box-shadow: 0 0 8px rgba(0, 51, 102, 0.2);
+}
+
+/* Estilos de la Tabla DataTable */
+.dataTables_wrapper {
+  background: var(--blanco);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px var(--sombra);
+}
+
+#tabla-posts {
+  width: 100% !important;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Encabezado de la tabla */
+#tabla-posts thead th {
+  background-color: var(--utpl-azul);
+  color: var(--utpl-amarillo);
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 15px;
+  border: none;
+  text-align: left;
+}
+
+/* Filas de la tabla */
+#tabla-posts tbody td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+#tabla-posts tbody tr:hover {
+  background-color: rgba(253, 184, 19, 0.1);
+  /* Efecto hover amarillo suave */
+  transition: background 0.2s;
+}
+
+/* Estilo de los botones de paginación de DataTables */
+.dataTables_paginate .paginate_button.current {
+  background: var(--utpl-azul) !important;
+  color: var(--blanco) !important;
+  border: none !important;
+  border-radius: 4px;
+}
+
+.dataTables_paginate .paginate_button:hover {
+  background: var(--utpl-amarillo) !important;
+  color: var(--utpl-azul) !important;
+  border: none !important;
+}
+
+/* Personalización del buscador interno de DataTables (si está activo) */
+.dataTables_filter input {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 5px;
+=======
+>>>>>>> acdefa4 (style change)
 }
 
 #vista:focus,
