@@ -1,6 +1,3 @@
-Aquí tienes la documentación completa y estructurada en formato Markdown. Está lista para que la copies y la pegues en tu archivo `README.md` o `evidencias.md`.
-
----
 
 # Documentación del Proyecto: Integración de Datos Mundial 2026
 
@@ -55,7 +52,7 @@ python data/run.py
 ### Carga de Datos
 Utiliza el script de carga masiva para subir el JSON a la base de datos `jugadores`:
 ```bash
-python data/cargar_couchdb.py
+python data/couche_inyection.py
 ```
 
 ### Creación de Vistas (Map Functions)
@@ -95,6 +92,6 @@ npm run dev
     `Fauxton > Settings > CORS > Enable CORS > Allow all origins`.
 
 ---
-**Autor:** Sebastian
+**Autor:** Sebastian - Alex
 **Institución:** Universidad Técnica Particular de Loja (UTPL)
 **Fecha:** Mayo 2026
